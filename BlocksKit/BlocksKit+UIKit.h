@@ -25,7 +25,6 @@
 //  THE SOFTWARE.
 //
 
-#import <BlocksKit/UIAlertView+BlocksKit.h>
 #import <BlocksKit/UIBarButtonItem+BlocksKit.h>
 #import <BlocksKit/UIControl+BlocksKit.h>
 #import <BlocksKit/UIGestureRecognizer+BlocksKit.h>

@@ -124,13 +124,11 @@
 		DBFB0A1A184DC82100F37EEE /* MFMessageComposeViewController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFB0A18184DC82100F37EEE /* MFMessageComposeViewController+BlocksKit.m */; };
 		DBFB0A1B184DC82900F37EEE /* MFMailComposeViewController+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBFB0A15184DC82000F37EEE /* MFMailComposeViewController+BlocksKit.h */; };
 		DBFB0A1C184DC82900F37EEE /* MFMessageComposeViewController+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBFB0A17184DC82100F37EEE /* MFMessageComposeViewController+BlocksKit.h */; };
-		DBFB0A31184DC83200F37EEE /* UIAlertView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFB0A21184DC83200F37EEE /* UIAlertView+BlocksKit.m */; };
 		DBFB0A32184DC83200F37EEE /* UIBarButtonItem+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFB0A23184DC83200F37EEE /* UIBarButtonItem+BlocksKit.m */; };
 		DBFB0A33184DC83200F37EEE /* UIControl+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFB0A25184DC83200F37EEE /* UIControl+BlocksKit.m */; };
 		DBFB0A34184DC83200F37EEE /* UIGestureRecognizer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFB0A27184DC83200F37EEE /* UIGestureRecognizer+BlocksKit.m */; };
 		DBFB0A35184DC83200F37EEE /* UIPopoverController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFB0A29184DC83200F37EEE /* UIPopoverController+BlocksKit.m */; };
 		DBFB0A37184DC83200F37EEE /* UIView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFB0A2D184DC83200F37EEE /* UIView+BlocksKit.m */; };
-		DBFB0A3A184DC83C00F37EEE /* UIAlertView+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBFB0A20184DC83200F37EEE /* UIAlertView+BlocksKit.h */; };
 		DBFB0A3B184DC83C00F37EEE /* UIBarButtonItem+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBFB0A22184DC83200F37EEE /* UIBarButtonItem+BlocksKit.h */; };
 		DBFB0A3C184DC83C00F37EEE /* UIControl+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBFB0A24184DC83200F37EEE /* UIControl+BlocksKit.h */; };
 		DBFB0A3D184DC83C00F37EEE /* UIGestureRecognizer+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBFB0A26184DC83200F37EEE /* UIGestureRecognizer+BlocksKit.h */; };
@@ -165,7 +163,6 @@
 		DBFB0B13184DCD6200F37EEE /* NSSetBlocksKitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFB0AEF184DCD6200F37EEE /* NSSetBlocksKitTest.m */; };
 		DBFB0B14184DCD6200F37EEE /* NSTimerBlocksKitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFB0AF1184DCD6200F37EEE /* NSTimerBlocksKitTest.m */; };
 		DBFB0B15184DCD6200F37EEE /* NSURLConnectionBlocksKitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFB0AF3184DCD6200F37EEE /* NSURLConnectionBlocksKitTest.m */; };
-		DBFB0B17184DCD6200F37EEE /* UIAlertViewBlocksKitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFB0AF7184DCD6200F37EEE /* UIAlertViewBlocksKitTest.m */; };
 		DBFB0B18184DCD6200F37EEE /* UIControlBlocksKitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFB0AF9184DCD6200F37EEE /* UIControlBlocksKitTest.m */; };
 		DBFB0B1D184DCD9C00F37EEE /* A2BlockDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFB0AC5184DCD6200F37EEE /* A2BlockDelegateTests.m */; };
 		DBFB0B1E184DCD9C00F37EEE /* A2BlockInvocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFB0AC7184DCD6200F37EEE /* A2BlockInvocationTests.m */; };
@@ -222,7 +219,6 @@
 			dstSubfolderSpec = 16;
 			files = (
 				2BB8A4A218BEF584006AF0F6 /* UIImagePickerController+BlocksKit.h in CopyFiles */,
-				DBFB0A3A184DC83C00F37EEE /* UIAlertView+BlocksKit.h in CopyFiles */,
 				DBFB0A3B184DC83C00F37EEE /* UIBarButtonItem+BlocksKit.h in CopyFiles */,
 				DBFB0A3C184DC83C00F37EEE /* UIControl+BlocksKit.h in CopyFiles */,
 				DBFB0A3D184DC83C00F37EEE /* UIGestureRecognizer+BlocksKit.h in CopyFiles */,
@@ -350,8 +346,6 @@
 		DBFB0A16184DC82000F37EEE /* MFMailComposeViewController+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MFMailComposeViewController+BlocksKit.m"; sourceTree = "<group>"; };
 		DBFB0A17184DC82100F37EEE /* MFMessageComposeViewController+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MFMessageComposeViewController+BlocksKit.h"; sourceTree = "<group>"; };
 		DBFB0A18184DC82100F37EEE /* MFMessageComposeViewController+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MFMessageComposeViewController+BlocksKit.m"; sourceTree = "<group>"; };
-		DBFB0A20184DC83200F37EEE /* UIAlertView+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+BlocksKit.h"; sourceTree = "<group>"; };
-		DBFB0A21184DC83200F37EEE /* UIAlertView+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+BlocksKit.m"; sourceTree = "<group>"; };
 		DBFB0A22184DC83200F37EEE /* UIBarButtonItem+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BlocksKit.h"; sourceTree = "<group>"; };
 		DBFB0A23184DC83200F37EEE /* UIBarButtonItem+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BlocksKit.m"; sourceTree = "<group>"; };
 		DBFB0A24184DC83200F37EEE /* UIControl+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+BlocksKit.h"; sourceTree = "<group>"; };
@@ -392,7 +386,6 @@
 		DBFB0AEF184DCD6200F37EEE /* NSSetBlocksKitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSetBlocksKitTest.m; sourceTree = "<group>"; };
 		DBFB0AF1184DCD6200F37EEE /* NSTimerBlocksKitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerBlocksKitTest.m; sourceTree = "<group>"; };
 		DBFB0AF3184DCD6200F37EEE /* NSURLConnectionBlocksKitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLConnectionBlocksKitTest.m; sourceTree = "<group>"; };
-		DBFB0AF7184DCD6200F37EEE /* UIAlertViewBlocksKitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAlertViewBlocksKitTest.m; sourceTree = "<group>"; };
 		DBFB0AF9184DCD6200F37EEE /* UIControlBlocksKitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIControlBlocksKitTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -697,8 +690,6 @@
 		DBFB0A1D184DC83200F37EEE /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				DBFB0A20184DC83200F37EEE /* UIAlertView+BlocksKit.h */,
-				DBFB0A21184DC83200F37EEE /* UIAlertView+BlocksKit.m */,
 				DBFB0A22184DC83200F37EEE /* UIBarButtonItem+BlocksKit.h */,
 				DBFB0A23184DC83200F37EEE /* UIBarButtonItem+BlocksKit.m */,
 				DBFB0A24184DC83200F37EEE /* UIControl+BlocksKit.h */,
@@ -730,7 +721,6 @@
 		DBFB0B1B184DCD7300F37EEE /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				DBFB0AF7184DCD6200F37EEE /* UIAlertViewBlocksKitTest.m */,
 				DBFB0AF9184DCD6200F37EEE /* UIControlBlocksKitTest.m */,
 				2BB8A49418BE7740006AF0F6 /* UIImagePickerControllerBlocksKitTest.m */,
 			);
@@ -983,7 +973,6 @@
 			files = (
 				DBFB0A06184DC7E400F37EEE /* NSURLConnection+BlocksKit.m in Sources */,
 				DBFB0A03184DC7E400F37EEE /* NSCache+BlocksKit.m in Sources */,
-				DBFB0A31184DC83200F37EEE /* UIAlertView+BlocksKit.m in Sources */,
 				DBFB0A34184DC83200F37EEE /* UIGestureRecognizer+BlocksKit.m in Sources */,
 				DBFB09B1184DC7B000F37EEE /* NSDictionary+BlocksKit.m in Sources */,
 				DBFB09BA184DC7B000F37EEE /* NSMutableArray+BlocksKit.m in Sources */,
@@ -1023,7 +1012,6 @@
 				DBFB0B03184DCD6200F37EEE /* MFMailComposeViewControllerBlocksKitTest.m in Sources */,
 				DBFB0B0B184DCD6200F37EEE /* NSMutableDictionaryBlocksKitTest.m in Sources */,
 				DBFB0B12184DCD6200F37EEE /* NSOrderedSetBlocksKitTest.m in Sources */,
-				DBFB0B17184DCD6200F37EEE /* UIAlertViewBlocksKitTest.m in Sources */,
 				DBFB0B06184DCD6200F37EEE /* NSCacheBlocksKitTest.m in Sources */,
 				DBFB0B0C184DCD6200F37EEE /* NSMutableIndexSetBlocksKitTest.m in Sources */,
 				DBFB0B10184DCD6200F37EEE /* NSObjectBlockObservationTest.m in Sources */,
