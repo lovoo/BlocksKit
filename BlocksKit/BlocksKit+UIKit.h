@@ -28,5 +28,4 @@
 #import <BlocksKit/UIBarButtonItem+BlocksKit.h>
 #import <BlocksKit/UIControl+BlocksKit.h>
 #import <BlocksKit/UIGestureRecognizer+BlocksKit.h>
-#import <BlocksKit/UIPopoverController+BlocksKit.h>
 #import <BlocksKit/UIView+BlocksKit.h>

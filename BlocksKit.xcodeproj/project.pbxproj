@@ -124,12 +124,10 @@
 		DBFB0A32184DC83200F37EEE /* UIBarButtonItem+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFB0A23184DC83200F37EEE /* UIBarButtonItem+BlocksKit.m */; };
 		DBFB0A33184DC83200F37EEE /* UIControl+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFB0A25184DC83200F37EEE /* UIControl+BlocksKit.m */; };
 		DBFB0A34184DC83200F37EEE /* UIGestureRecognizer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFB0A27184DC83200F37EEE /* UIGestureRecognizer+BlocksKit.m */; };
-		DBFB0A35184DC83200F37EEE /* UIPopoverController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFB0A29184DC83200F37EEE /* UIPopoverController+BlocksKit.m */; };
 		DBFB0A37184DC83200F37EEE /* UIView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFB0A2D184DC83200F37EEE /* UIView+BlocksKit.m */; };
 		DBFB0A3B184DC83C00F37EEE /* UIBarButtonItem+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBFB0A22184DC83200F37EEE /* UIBarButtonItem+BlocksKit.h */; };
 		DBFB0A3C184DC83C00F37EEE /* UIControl+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBFB0A24184DC83200F37EEE /* UIControl+BlocksKit.h */; };
 		DBFB0A3D184DC83C00F37EEE /* UIGestureRecognizer+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBFB0A26184DC83200F37EEE /* UIGestureRecognizer+BlocksKit.h */; };
-		DBFB0A3E184DC83C00F37EEE /* UIPopoverController+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBFB0A28184DC83200F37EEE /* UIPopoverController+BlocksKit.h */; };
 		DBFB0A40184DC83C00F37EEE /* UIView+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBFB0A2C184DC83200F37EEE /* UIView+BlocksKit.h */; };
 		DBFB0A88184DCBCC00F37EEE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFB092D184DC36400F37EEE /* Cocoa.framework */; };
 		DBFB0ABD184DCC9400F37EEE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBFB0AB7184DCC9400F37EEE /* MainMenu.xib */; };
@@ -218,7 +216,6 @@
 				DBFB0A3B184DC83C00F37EEE /* UIBarButtonItem+BlocksKit.h in CopyFiles */,
 				DBFB0A3C184DC83C00F37EEE /* UIControl+BlocksKit.h in CopyFiles */,
 				DBFB0A3D184DC83C00F37EEE /* UIGestureRecognizer+BlocksKit.h in CopyFiles */,
-				DBFB0A3E184DC83C00F37EEE /* UIPopoverController+BlocksKit.h in CopyFiles */,
 				DBFB0A40184DC83C00F37EEE /* UIView+BlocksKit.h in CopyFiles */,
 				DBFB0A1B184DC82900F37EEE /* MFMailComposeViewController+BlocksKit.h in CopyFiles */,
 				DBFB0A1C184DC82900F37EEE /* MFMessageComposeViewController+BlocksKit.h in CopyFiles */,
@@ -345,8 +342,6 @@
 		DBFB0A25184DC83200F37EEE /* UIControl+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+BlocksKit.m"; sourceTree = "<group>"; };
 		DBFB0A26184DC83200F37EEE /* UIGestureRecognizer+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+BlocksKit.h"; sourceTree = "<group>"; };
 		DBFB0A27184DC83200F37EEE /* UIGestureRecognizer+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+BlocksKit.m"; sourceTree = "<group>"; };
-		DBFB0A28184DC83200F37EEE /* UIPopoverController+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPopoverController+BlocksKit.h"; sourceTree = "<group>"; };
-		DBFB0A29184DC83200F37EEE /* UIPopoverController+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPopoverController+BlocksKit.m"; sourceTree = "<group>"; };
 		DBFB0A2C184DC83200F37EEE /* UIView+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BlocksKit.h"; sourceTree = "<group>"; };
 		DBFB0A2D184DC83200F37EEE /* UIView+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BlocksKit.m"; sourceTree = "<group>"; };
 		DBFB0A42184DC84F00F37EEE /* MacBundledFramework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MacBundledFramework.xcconfig; sourceTree = "<group>"; };
@@ -689,8 +684,6 @@
 				DBFB0A25184DC83200F37EEE /* UIControl+BlocksKit.m */,
 				DBFB0A26184DC83200F37EEE /* UIGestureRecognizer+BlocksKit.h */,
 				DBFB0A27184DC83200F37EEE /* UIGestureRecognizer+BlocksKit.m */,
-				DBFB0A28184DC83200F37EEE /* UIPopoverController+BlocksKit.h */,
-				DBFB0A29184DC83200F37EEE /* UIPopoverController+BlocksKit.m */,
 				DBFB0A2C184DC83200F37EEE /* UIView+BlocksKit.h */,
 				DBFB0A2D184DC83200F37EEE /* UIView+BlocksKit.m */,
 			);
@@ -975,7 +968,6 @@
 				DBFB09D8184DC7B000F37EEE /* NSTimer+BlocksKit.m in Sources */,
 				DBFB09CC184DC7B000F37EEE /* NSObject+BKBlockExecution.m in Sources */,
 				DBFB0A1A184DC82100F37EEE /* MFMessageComposeViewController+BlocksKit.m in Sources */,
-				DBFB0A35184DC83200F37EEE /* UIPopoverController+BlocksKit.m in Sources */,
 				DBFB0A37184DC83200F37EEE /* UIView+BlocksKit.m in Sources */,
 				DBFB09FF184DC7E400F37EEE /* A2DynamicDelegate.m in Sources */,
 				DBFB09C6184DC7B000F37EEE /* NSMutableSet+BlocksKit.m in Sources */,
