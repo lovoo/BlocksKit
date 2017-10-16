@@ -32,5 +32,4 @@
 #import <BlocksKit/UIGestureRecognizer+BlocksKit.h>
 #import <BlocksKit/UIPopoverController+BlocksKit.h>
 #import <BlocksKit/UIView+BlocksKit.h>
-#import <BlocksKit/UIWebView+BlocksKit.h>
 #import <BlocksKit/UIImagePickerController+BlocksKit.h>
